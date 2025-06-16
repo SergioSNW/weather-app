@@ -136,7 +136,7 @@ code {
   .wrapper {
     padding: 1.5rem;
     border-radius: 1rem;
-    width: auto;
+    max-width: 70%;
   }
   .city {
     font-size: 2rem;
@@ -151,11 +151,23 @@ code {
     font-size: 1.25rem;
   }
   .form {
-    padding: 0.75rem;
+    padding: 1rem auto;
   }
-  .search-input,
+  .search-input {
+    padding: 8px 12px;
+    font-size: 14px;
+    margin-left: 3%;
+    width: 70%;
+  }
+
   .search-btn {
     padding: 8px 12px;
     font-size: 14px;
+    margin-right: 3%;
+    width: 30%;
+  }
+
+  .search-input,
+  .search-btn {
   }
 }
