@@ -136,6 +136,7 @@ code {
   .wrapper {
     padding: 1.5rem;
     border-radius: 1rem;
+    width: auto;
   }
   .city {
     font-size: 2rem;
